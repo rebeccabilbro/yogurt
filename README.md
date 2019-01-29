@@ -1,0 +1,1 @@
+Exercises from Stephane Maarek's [A Complete Introduction to Protocol Buffers](https://www.packtpub.com/networking-and-servers/complete-introduction-protocol-buffers-3-video) course.

@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+
+message Person {
+    int32 age = 1;
+    string firstname = 2;
+    string lastname = 3;
+    bytes smallpic = 4;
+    bool verified = 5;
+    float height = 6;
+
+    repeated string telephone = 7;
+
+    enum UserType {
+        DEFAULT = 0;
+        BASIC = 1;
+        PROFESSIONAL = 2;
+    }
+
+    UserType usertype = 8;
+}

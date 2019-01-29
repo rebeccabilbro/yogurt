@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "multiple/multi.proto";
+
+message Channel {
+    string name = 1;
+    int32 subscribers = 2;
+
+    Date date_created = 3;
+
+}
